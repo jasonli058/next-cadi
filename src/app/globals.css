@@ -21,6 +21,13 @@
   inset: 0;
 }
 
+/* Remove fixed attachment on mobile */
+@media (min-width: 768px) {
+  .bg-welcome {
+    background-attachment: fixed;
+  }
+}
+
 .bg-questions{
   position: relative;
   background-color: white;
@@ -38,6 +45,13 @@
   background-color: black;
   opacity: 0.3;
   inset: 0;
+}
+
+/* Remove fixed attachment on mobile */
+@media (min-width: 768px) {
+  .bg-questions {
+    background-attachment: fixed;
+  }
 }
 
 @layer utilities {
