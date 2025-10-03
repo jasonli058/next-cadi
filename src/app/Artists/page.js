@@ -11,7 +11,7 @@ const Artists = () => {
         <h2 className="inline-block mt-40 font-bold border-[10px] border-r-[30px] border-l-[30px] border-secondary bg-secondary rounded-full text-primary text-4xl font-body">
           Meet our Artists!
         </h2>
-        <span className='block lg:p-0 medd-p-0 pl-10 pr-10 mt-5 text-primary font-body font-semibold text-xl'> Click on the Artist's Card to learn more about their works! </span>
+        <span className='block lg:p-0 medd-p-0 pl-10 pr-10 mt-5 text-primary font-body font-semibold text-xl'> Click on the Artist&apos;s Card to learn more about their works! </span>
       </div>
 
       <div className="grid grid-cols-1 medd:grid-cols-2 lg:grid-cols-3 grid-rows-3 gap-10 m-14">
