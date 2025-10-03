@@ -16,13 +16,7 @@ const Question = () => {
         </div>
         <div className="flex flex-col items-center lg:items-start lg:pt-5 pb-8 pt-10 lg:m-0 flex-1">
           <p className="font-body up_until:text-2xl text-xl max-w-4xl lg:max-w-none text-left p-10 lg:pl-8 lg:mr-2 w-full">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            If you have any questions or concerns regarding commissions, please feel free to contact us. Whether you’re inquiring about pricing, requesting a custom piece, or clarifying details about the process, we are happy to assist. Our goal is to ensure clear communication and a smooth experience from start to finish. Please reach out via the contact form or email!
           </p>
           <div className="flex flex-col items-center lg:items-start lg:pl-8 w-full">
             <h2 className="font-body text-2xl font-semibold mb-5">Need More Information?</h2>
