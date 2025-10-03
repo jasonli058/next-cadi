@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-welcome{
+  position: relative;
+  background-color: white;
+  background-image: url(../../public/img/new_bg4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; /*  prevent tiling */
+  inset: 0;
+}
+
+.bg-welcome::before{
+  content: '';
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+  inset: 0;
+}
+
+.bg-questions{
+  position: relative;
+  background-color: white;
+  background-image: url(../../public/img/new_bg5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; /*  prevent tiling */
+  inset: 0;
+}
+
+.bg-questions::before{
+  content: '';
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+  inset: 0;
+}
+
+@layer utilities {
+.textsd{
+  text-shadow: rgba(0, 0, 0, 0.598) 12px 1px 30px;
+}
+.textsd-white{
+  text-shadow: rgba(255, 255, 255, 0.432) 12px 1px 30px;
+}
+}
+
+.scroll-down header {
+  @apply transform -translate-y-full;
+}
+
+.scroll-up header {
+  @apply shadow-lg;
+}
+
+body.menu-is-open {
+  overflow: hidden;
+}
+
+body.menu-is-open header {
+  @apply filter-none;
+}
+
+.nav{
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  transition: all 300ms ease-in-out;
+}
+
+.card{
+  @apply bg-white rounded shadow-md relative 
+}
+
+/* artist cards */
+.masonry-grid {
+  display: flex;
+  margin-left: -16px; /* gutter size offset */
+  width: auto;
+}
+
+.masonry-column {
+  padding-left: 16px;
+  background-clip: padding-box;
+}
+
+.masonry-column > div {
+  margin-bottom: 24px; /* space between cards */
+}
