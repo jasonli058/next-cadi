@@ -24,10 +24,10 @@ module.exports = {
       },
       
       // Custom background images
-      backgroundImage: {
-        'welcome': "url('/img/cadi_bg.jpg')",
-        'questions': "url('/img/questions_bg.jpg')",
-      },
+      // backgroundImage: {
+      //   'welcome': "url('/img/cadi_bg.jpg')",
+      //   'questions': "url('/img/questions_bg.jpg')",
+      // },
     },
     
     // Custom breakpoints (override default screens)

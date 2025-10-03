@@ -11,7 +11,7 @@ export default function Home() {
     <div className="grid m-0 p-30 text-center gap-8 grid-cols-12 auto-rows-[minmax(100px,auto)]"> 
 
       {/* welcome comp begins */}
-      <div className="border-t-0 col-start-1 col-end-13 row-span-7 relative bg-welcome backdrop-blur-sm flex items-center justify-center">
+      <div className="border-t-0 col-start-1 col-end-13 row-span-7 bg-welcome relative flex items-center justify-center">
         <Welcome />
       </div>
       {/* welcome comp ends */}
@@ -24,11 +24,11 @@ export default function Home() {
           <div className="lg:text-xl lg:flex p-4 items-center lg:justify-center lg:pt-2 pr-8">
             <div className="flex item-center lg:pt-5 justify-center pb-8">
               <br />
-              <p className=" font-body up_until:text-2xl text-xl lg:max-w-2xl md:max-w-3xl text-left p-10 mr-2 lg:mt-14 lg:border-r-2">
+              <p className=" font-body up_until:text-2xl text-xl lg:max-w-2xl md:max-w-3xl text-left p-10 lg:mr-2 lg:mt-14 lg:border-r-2">
                 CADI is a student-led service club dedicated to using art as a force for good. We design and donate hand-decorated care bags filled with school supplies and necessities to underfunded schools, create collaborative art projects to support local hospitals, and take custom art commissions to raise funds for future donations. Each month, we align our projects with national health awareness themes to educate, inspire, and support our community. Our mission is simple: turn creativity into action, and action into impact.
               </p>
             </div>
-            <div className="flex justify-center pt-10 lg:pl-16 lg:pb-0 pb-24">
+            <div className="flex items-center justify-center pt-10 lg:pl-16 lg:pb-0 pb-24">
               <Image
                 src="/img/new_cadi_logo.jpg"
                 alt="cadi-logo"
