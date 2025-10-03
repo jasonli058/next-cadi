@@ -74,7 +74,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col items-center justify-center lg:pl-8 w-full mb-20">
             <a 
-              href="https://www.youtube.com/"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf6ZgujqM-luE-hqqBXV2Rn2EP29PUIe0ktPwtfCHEY-lbGUA/viewform?pli=1"
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:-translate-y-2 transition-transform duration-200 hover:bg-accented hover:border-accented hover:text-gray-700 text-2xl font-body font-semibold text-black border-[10px] border-r-[20px] border-l-[20px] border-secondary bg-secondary rounded-full"

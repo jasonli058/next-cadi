@@ -21,7 +21,7 @@ const Question = () => {
           <div className="flex flex-col items-center lg:items-start lg:pl-8 w-full">
             <h2 className="font-body text-2xl font-semibold mb-5">Need More Information?</h2>
             <a 
-              href="https://www.youtube.com/"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdZ7h7K7qVhJpHv-NsNnvebBrIdiwP84GVBdP9UlH4Yo4o7mg/viewform?usp=sf_link"
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:-translate-y-2 transition-transform duration-200 hover:bg-gray-200 hover:border-gray-200 hover:text-gray-700 text-2xl font-body font-semibold text-black border-[10px] border-r-[20px] border-l-[20px] border-gray-100 bg-gray-100 rounded-full"

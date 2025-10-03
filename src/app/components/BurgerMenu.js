@@ -79,7 +79,7 @@ const BurgerMenu = () => {
           */}
           <li className="w-full text-center py-4 bg-secondary hover:bg-accented transition-colors">
             <Link 
-            href="https://www.youtube.com/"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf6ZgujqM-luE-hqqBXV2Rn2EP29PUIe0ktPwtfCHEY-lbGUA/viewform?pli=1"
             target="_blank" 
             rel="noopener noreferrer" 
             onClick={() => setMenuHidden(true)} 
