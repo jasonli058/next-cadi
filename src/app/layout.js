@@ -25,6 +25,9 @@ const quicksand = Quicksand ({
 export const metadata = {
   title: "CADI",
   description: "created by jason",
+  verfication: {
+    google: 'RGlf056Bgn1cuIgon8W6wSXmy5fyamxFqNtMZcoS5fo'
+  }
 };
 
 export default function RootLayout({ children }) {
