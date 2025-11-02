@@ -64,13 +64,7 @@ export default function Home() {
           <span className="lg:border-b-2 border-primary">Become a part of our journey!</span>
         </h2>
         <p className="font-body up_until:text-2xl text-xl max-w-none text-left p-20 w-full">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Every brushstroke, every care package, and every project starts with a person like you. Whether you are an experienced artist or simply someone with a passion for making a difference, your energy and creativity is what fuels our mission. By joining CADI, you'll gain hands-on experience in project planning, collaborate with a team of dedicated peers, and see firsthand how your talents can bring tangible joy and support to those in need. Together, we can amplify our impact and spread the power of art further into our community.
           </p>
           <div className="flex flex-col items-center justify-center lg:pl-8 w-full mb-20">
             <a 
