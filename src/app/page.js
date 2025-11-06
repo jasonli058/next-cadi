@@ -4,6 +4,9 @@ import Image from "next/image";
 import Welcome from "../app/components/home/Welcome";
 import OurWorks from "./components/home/OurWorks";
 import Question from "./components/home/Questions";
+import { motion } from "framer-motion";
+import FadeIn from "../app/components/animations/FadeIn";
+import Reveal from "../app/components/animations/Reveal";
 
 export default function Home() {
   return (
@@ -11,6 +14,7 @@ export default function Home() {
     <div className="grid m-0 p-30 text-center gap-8 grid-cols-12 auto-rows-[minmax(100px,auto)]"> 
 
       {/* welcome comp begins */}
+      
       <div className="border-t-0 col-start-1 col-end-13 row-span-7 bg-welcome relative flex items-center justify-center">
         <Welcome />
       </div>
@@ -18,42 +22,52 @@ export default function Home() {
 
       {/* goals comp starts */}
       <div className="border-b-2 col-start-1 col-end-13 row-span-6">
-          <h2 className="font-body up_until:text-4xl text-3xl font-semibold text-primary mt-16">
-            <span className="border-b-2 border-primary">About Us!</span>
-          </h2>
+            <Reveal>
+              <h2 className="font-body up_until:text-4xl text-3xl font-semibold text-primary mt-16">
+                <span className="border-b-2 border-primary">About Us!</span>
+              </h2>
+            </Reveal>
           <div className="lg:text-xl lg:flex p-4 items-center lg:justify-center lg:pt-2 pr-8">
             <div className="flex item-center lg:pt-5 justify-center pb-8">
               <br />
-              <p className=" font-body up_until:text-2xl text-xl lg:max-w-2xl md:max-w-3xl text-left p-10 lg:mr-2 lg:mt-14 lg:border-r-2">
-                CADI is a student-led service club dedicated to using art as a force for good. We design and donate hand-decorated care bags filled with school supplies and necessities to underfunded schools, create collaborative art projects to support local hospitals, and take custom art commissions to raise funds for future donations. Each month, we align our projects with national health awareness themes to educate, inspire, and support our community. Our mission is simple: turn creativity into action, and action into impact.
-              </p>
+              <Reveal>
+                <p className=" font-body up_until:text-2xl text-xl lg:max-w-2xl md:max-w-3xl text-left p-10 lg:mr-2 lg:mt-14 lg:border-r-2">
+                  CADI is a student-led service club dedicated to using art as a force for good. We design and donate hand-decorated care bags filled with school supplies and necessities to underfunded schools, create collaborative art projects to support local hospitals, and take custom art commissions to raise funds for future donations. Each month, we align our projects with national health awareness themes to educate, inspire, and support our community. Our mission is simple: turn creativity into action, and action into impact.
+                </p>
+              </Reveal>
             </div>
-            <div className="flex items-center justify-center pt-10 lg:pl-16 lg:pb-0 pb-24">
-              <Image
-                src="/img/new_cadi_logo.jpg"
-                alt="cadi-logo"
-                width={80}
-                height={80}
-                className="lg:w-96 w-[400px] rounded-2xl border border-gray-200 border-[5px]"
-              />
-            </div>
+            <Reveal>
+              <div className="flex items-center justify-center pt-10 lg:pl-16 lg:pb-0 pb-24">
+                <Image
+                  src="/img/new_cadi_logo.jpg"
+                  alt="cadi-logo"
+                  width={80}
+                  height={80}
+                  className="lg:w-96 w-[400px] rounded-2xl border border-gray-200 border-[5px]"
+                />
+              </div>
+            </Reveal>
           </div>
         </div>
       {/* goals comp ends */}
       
       {/* our works comp starts */}
       <div id="work" className=" border-t-2 col-start-1 col-end-13 row-span-8">
-        <h2 className="font-body up_until:text-4xl text-3xl font-semibold text-primary mt-20">
-          <span className="border-b-2 border-primary">Our Works!</span>
-        </h2>
+        <Reveal>
+          <h2 className="font-body up_until:text-4xl text-3xl font-semibold text-primary mt-20">
+            <span className="border-b-2 border-primary">Our Works!</span>
+          </h2>
+        </Reveal>
         <div className="mt-20 lg:grid lg:grid-cols-3 gap-10 m-14  ">
           <OurWorks />
         </div>
         <div className="flex items-center justify-center mt-16">
-          <div className="
-          hover:-translate-y-2 transition-transform duration-200 hover:bg-gray-200 hover:border-gray-200 hover:text-gray-700 text-2xl bottom-4 lg:left-14 left-7 font-body font-semibold text-black border-[10px] border-r-[20px] border-l-[20px] border-gray-100 bg-gray-100 rounded-full mb-20">
-              <a href="/Artists"> Learn more </a>
-          </div>
+          <Reveal>
+            <div className="
+            hover:-translate-y-2 transition-transform duration-200 hover:bg-gray-200 hover:border-gray-200 hover:text-gray-700 text-2xl bottom-4 lg:left-14 left-7 font-body font-semibold text-black border-[10px] border-r-[20px] border-l-[20px] border-gray-100 bg-gray-100 rounded-full mb-20">
+                <a href="/Artists"> Learn more </a>
+            </div>
+          </Reveal>
         </div>
       </div>
       {/* our works comp ends */}
