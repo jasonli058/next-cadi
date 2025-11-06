@@ -75,20 +75,24 @@ export default function Home() {
       {/* commission comp starts */}
       <div className="border-t-2 col-start-1 col-end-13 row-span-3 border-b-2">
         <h2 className="font-body up_until:text-4xl text-3xl font-semibold text-primary mt-20 lg:p-0 medd:p-0 pl-10 pr-10">
-          <span className="lg:border-b-2 border-primary">Become a part of our journey!</span>
+          <Reveal><span className="lg:border-b-2 border-primary">Become a part of our journey!</span></Reveal>
         </h2>
-        <p className="font-body up_until:text-2xl text-xl max-w-none text-left p-20 w-full">
-            Every brushstroke, every care package, and every project starts with a person like you. Whether you are an experienced artist or simply someone with a passion for making a difference, your energy and creativity is what fuels our mission. By joining CADI, you&apos;ll gain hands-on experience in project planning, collaborate with a team of dedicated peers, and see firsthand how your talents can bring tangible joy and support to those in need. Together, we can amplify our impact and spread the power of art further into our community.
-          </p>
+        <Reveal>
+          <p className="font-body up_until:text-2xl text-xl max-w-none text-left p-20 w-full">
+              Every brushstroke, every care package, and every project starts with a person like you. Whether you are an experienced artist or simply someone with a passion for making a difference, your energy and creativity is what fuels our mission. By joining CADI, you&apos;ll gain hands-on experience in project planning, collaborate with a team of dedicated peers, and see firsthand how your talents can bring tangible joy and support to those in need. Together, we can amplify our impact and spread the power of art further into our community.
+            </p>
+        </Reveal>
           <div className="flex flex-col items-center justify-center lg:pl-8 w-full mb-20">
-            <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf6ZgujqM-luE-hqqBXV2Rn2EP29PUIe0ktPwtfCHEY-lbGUA/viewform?pli=1"
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hover:-translate-y-2 transition-transform duration-200 hover:bg-accented hover:border-accented hover:text-gray-700 text-2xl font-body font-semibold text-black border-[10px] border-r-[20px] border-l-[20px] border-secondary bg-secondary rounded-full"
-            >
-              Commission Today
-            </a>
+            <Reveal>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf6ZgujqM-luE-hqqBXV2Rn2EP29PUIe0ktPwtfCHEY-lbGUA/viewform?pli=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:-translate-y-2 transition-transform duration-200 hover:bg-accented hover:border-accented hover:text-gray-700 text-2xl font-body font-semibold text-black border-[10px] border-r-[20px] border-l-[20px] border-secondary bg-secondary rounded-full"
+              >
+                Commission Today
+              </a>
+            </Reveal>
           </div>
       </div>
       {/* commission comp ends */}
@@ -96,9 +100,11 @@ export default function Home() {
       {/* start of questions header */}
         <div className="col-start-1 col-end-13 lg:row-span-2 row-span-3 bg-questions relative flex items-center justify-center">
           <div className="text-center isolate">
-            <span className="lg:text-6xl text-5xl font-body font-bold text-white textsd border-b-4 border-white">
-              Questions?
-            </span>
+            <Reveal>
+              <span className="lg:text-6xl text-5xl font-body font-bold text-white textsd border-b-4 border-white">
+                Questions?
+              </span>
+            </Reveal>
           </div>
         </div>
       {/* end of questions header */}
