@@ -1,7 +1,7 @@
 "use client" 
 
 import { useEffect } from "react";  
-import Link from "next/link";  // ← Next.js Link
+import Link from "next/link";  
 import logo from "../../../public/img/new_cadi_logo2.jpg";
 import Image from "next/image";
 import BurgerMenu from "./BurgerMenu";
