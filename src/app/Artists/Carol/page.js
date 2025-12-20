@@ -80,7 +80,6 @@ const Carol = () => {
                   src="/artworks/carol/carol2.png"
                   alt="Artwork2"
                 />
-        
                 <ArtCard
                   src="/artworks/carol/carol3.png"
                   alt="Artwork3"

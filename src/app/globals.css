@@ -104,5 +104,5 @@ body.menu-is-open header {
 }
 
 .masonry-column > div {
-  margin-bottom: 24px; /* space between cards */
+  padding-bottom: 24px; /* space between cards */
 }
