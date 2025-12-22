@@ -4,6 +4,7 @@ import Masonry from 'react-masonry-css';
 import ArtCard from '@/app/components/ArtCard';
 import BackButton from '@/app/components/BackButton';
 import Reveal from '@/app/components/animations/Reveal';
+import ZoomReveal from '@/app/components/animations/ZoomReveal';
 
 
 const breakpointColumnsObj = {
@@ -15,7 +16,7 @@ const breakpointColumnsObj = {
 const Carol = () => {
   return (
     <>
-      <Reveal>
+      <ZoomReveal>
         <div className="grid m-0 p-30 text-center gap-8 grid-cols-12 auto-rows-[minmax(100px,auto)]">
         {/* content wrapper begins */}
 
@@ -109,7 +110,7 @@ const Carol = () => {
             {/* end of artworks section */}
           </div>
         </div>
-      </Reveal>
+      </ZoomReveal>
       {/* end of content wrapper */}
     </>
   );
